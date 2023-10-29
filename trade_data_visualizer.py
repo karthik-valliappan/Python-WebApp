@@ -13,7 +13,7 @@ theme_plotly = None
 st.title("⏱ TRADE ANALYTICS DASHBOARD")
 
 # API URL - User input
-api_url = st.text_input("Enter the API URL:", "")
+api_url = st.text_input("Enter the API URL:", "http://example.com/api/data")
 
 # Make an API request and check for success
 response = requests.get(api_url)
